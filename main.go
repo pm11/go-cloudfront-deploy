@@ -9,9 +9,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/yury-sannikov/go-cloudfront-deploy/cloudfrontTools"
-	"github.com/yury-sannikov/go-cloudfront-deploy/fstools"
-	"github.com/yury-sannikov/go-cloudfront-deploy/s3tools"
+	"github.com/pm11/go-cloudfront-deploy/cloudfrontTools"
+	"github.com/pm11/go-cloudfront-deploy/fstools"
+	"github.com/pm11/go-cloudfront-deploy/s3tools"
 )
 
 type options struct {
